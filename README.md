@@ -1,6 +1,6 @@
-# Varosa Assessment - Playwright Automation Framework
+# Playwright Automation Framework
 
-This project is an automated testing framework for the Varosa Assessment, built using [Playwright](https://playwright.dev/) and TypeScript. It follows the Page Object Model (POM) design pattern for maintainability and scalability.
+This project is an automated testing framework, built using [Playwright](https://playwright.dev/) and TypeScript. It follows the Page Object Model (POM) design pattern for maintainability and scalability.
 
 ## 🚀 Features
 
@@ -22,7 +22,6 @@ Ensure you have the following installed:
 1.  **Clone the repository:**
     ```bash
     git clone <repository_url>
-    cd varosa_assesement
     ```
 
 2.  **Install dependencies:**
@@ -76,7 +75,6 @@ npx playwright test --debug
 ## 📂 Project Structure
 
 ```
-varosa_assesement/
 ├── core/
 │   ├── constant/       # API routes and constants
 │   ├── decorators/     # Custom decorators (e.g., @step)
